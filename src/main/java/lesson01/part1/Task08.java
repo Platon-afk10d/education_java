@@ -1,5 +1,7 @@
 package lesson01.part1;
 
+import java.io.BufferedReader;
+
 public class Task08 {
 
     /**
@@ -27,7 +29,13 @@ public class Task08 {
     }
 
     public static int getMetreFromCentimetre(int centimetre) {
-        //напишите тут ваш код
+        InputStream inputStream = System.in;
+        Reader inputStreamReader = new InputStreamReader(inputStream);
+        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+
+        String name = bufferedReader.readLine();
+        String sAge = bufferedReader.readLine();
+        int nAge = Integer.parseInt(sAge);
 
         return 0;
     }

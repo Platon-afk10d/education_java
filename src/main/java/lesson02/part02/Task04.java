@@ -22,7 +22,8 @@ public class Task04 {
         private static int catsCount = 0;
 
         public static void addNewCat() {
-            //напишите тут ваш код
+           int x = 1+ catsCount;
+           System.out.println(x);
 
         }
     }

@@ -21,7 +21,7 @@ public class Task05 {
         private static int catsCount = 0;
 
         public static void setCatsCount(int catsCount) {
-            //напишите тут ваш код
+            catsCount =3544;
 
         }
     }

@@ -17,7 +17,10 @@ public class Task05 {
      */
 
     public static void main(String[] args) {
-        //напишите тут ваш код
+        String Cat ="Персик";
+        String Cat1="Абрикос";
+        System.out.println(Cat);
+        System.out.println(Cat1);
     }
 
     public static class Cat {

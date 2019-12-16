@@ -22,9 +22,11 @@ public class Task06 {
         private String fullName;
 
         public void setName(String firstName, String lastName) {
-            String fullName = firstName + " " + lastName;
+            String fullName = firstName + " я меняю имя на " + lastName;
+firstName="Ашот";
+lastName="Имран";
+System.out.println(fullName);
 
-            //напишите тут ваш код
         }
     }
 }

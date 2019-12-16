@@ -12,7 +12,9 @@ package lesson02.part02;
  * 4.	Метод addNewCat класса Cat должен увеличивать количество котов на 1.
  */
 
-public class Task04 {
+public c
+
+lass Task04 {
 
     public static void main(String[] args) {
 
@@ -29,4 +31,3 @@ public class Task04 {
     }
 
 }
-
